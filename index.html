@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex items-center justify-center">
+      <div class="relative max-w-[480px] w-full">
+        <!-- scene1 -->
+        <div class="container1" id="one" style="height: 100vh">
+          <div class="relative h-screen bg-[#000000]">
+            <nav>
+              <a href="#two">
+                <img
+                  id="email"
+                  class="absolute top-[250px] left-1/2 -translate-x-1/2 w-[30%]"
+                  src="asset/email.png"
+                />
+              </a>
+            </nav>
+            <div
+              id="textread"
+              class="absolute text-white left-1/2 -translate-x-1/2 top-[400px]"
+            >
+              click to read message
+            </div>
+          </div>
+        </div>
+
+        <!-- scene2 -->
+        <div class="container2" id="two" style="height: 300vh">
+          <div class="relative h-screen bg-[#000000] text-white">
+            <div class="text">
+              <div class="textinner">
+                <p class="textline">mission mission mission</p>
+                <p class="textline">mission mission mission</p>
+              </div>
+            </div>
+            <div class="mission">
+              <span>here is your mission</span>
+              <span>here is your mission</span>
+              <span>here is your mission</span>
+              <span>here is your mission</span>
+              <span>here is your m</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- scene3 -->
+        <div class="container3" style="height: 400vh">
+          <div class="relative h-screen bg-[#000000]">
+            <div
+              id="textdiving"
+              class="absolute text-2xl text-white left-1/2 -translate-x-1/2 top-[60px]"
+            >
+              Don't forget
+            </div>
+            <img
+              id="diving1"
+              class="absolute top-[150px] left-[10%] w-[40%]"
+              src="asset/diving1.png"
+            />
+            <img
+              id="diving2"
+              class="absolute top-[200px] right-[10%] w-[20%]"
+              src="asset/diving2.png"
+            />
+            <img
+              id="diving3"
+              class="absolute top-[450px] left-[30%] w-[30%]"
+              src="asset/diving3.png"
+            />
+          </div>
+        </div>
+        <!-- scene4 -->
+        <div class="container4" style="height: 800vh">
+          <div class="relative h-screen bg-[#0054B7]">
+            <img
+              id="seatexture"
+              class="absolute left-1/2 -translate-x-1/2 top-0 h-fit w-[100%]"
+              src="asset/seatexture.png"
+            />
+            <div
+              id="goodluck"
+              class="absolute text-2xl text-white left-1/2 -translate-x-1/2 top-[200px]"
+            >
+              Good luck
+            </div>
+            <div
+              id="ten"
+              class="absolute opacity-0 text-2xl text-white left-1/2 -translate-x-1/2 top-[200px]"
+            >
+              10 M
+            </div>
+            <div
+              id="twenty"
+              class="absolute opacity-0 text-2xl text-white left-1/2 -translate-x-1/2 top-[200px]"
+            >
+              20 M
+            </div>
+            <div
+              id="thirty"
+              class="absolute opacity-0 text-2xl text-white left-1/2 -translate-x-1/2 top-[200px]"
+            >
+              30 M
+            </div>
+            <div
+              id="thirtyone"
+              class="absolute opacity-0 text-2xl text-white left-1/2 -translate-x-1/2 top-[200px]"
+            >
+              31 M
+            </div>
+            <img
+              id="black"
+              class="absolute left-1/2 -translate-x-1/2 top-0 h-fit w-[100%]"
+              src="asset/black.png"
+            />
+            <img
+              id="fish1"
+              class="absolute top-[70px] left-[10%] w-[40%] opacity-0"
+              src="asset/fish.png"
+            />
+            <img
+              id="fish2"
+              class="absolute top-[350px] left-[15%] w-[40%] opacity-0"
+              src="asset/fish.png"
+            />
+            <img
+              id="fish3"
+              class="absolute top-[450px] left-[40%] w-[40%] opacity-0"
+              src="asset/fish.png"
+            />
+            <img
+              id="fish4"
+              class="absolute top-[240px] right-[20%] w-[40%] opacity-0"
+              src="asset/fish2.png"
+            />
+            <img
+              id="fish5"
+              class="absolute top-[550px] right-[5%] w-[40%] opacity-0"
+              src="asset/fish2.png"
+            />
+          </div>
+        </div>
+
+        <!-- ทดลอง -->
+        <!-- scene5 -->
+        <div class="container5" style="height: 900vh">
+          <div class="relative h-screen bg-[#000000]">
+            <div class="logo-holder">
+              <div class="bar fill1"></div>
+              <div class="bar fill2"></div>
+              <div class="bar fill3"></div>
+              <div class="bar fill4"></div>
+              <div class="bar fill5"></div>
+              <div class="bar fill6"></div>
+            </div>
+          </div>
+        </div>
+        <!-- scene6 -->
+        <div class="container6" style="height: 1000vh">
+          <div class="relative h-screen bg-[#000000]">
+            <div class="scene">
+              <div class="box"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- scene7 -->
+        <div class="container7" style="height: 1100vh">
+          <div class="relative h-screen bg-[#000000]">
+            <h1 class="block-effect" style="--td: 1.2s">
+              <div class="block-reveal" style="--bc: #4040bf; --d: 0.1s">
+                Block
+              </div>
+              <div class="block-reveal" style="--bc: #bf4060; --d: 0.5s">
+                Revealing Effect
+              </div>
+            </h1>
+          </div>
+        </div>
+
+        <!-- scene8 -->
+        <div class="container8" style="height: 1200vh">
+          <div class="relative h-screen bg-[#000000]">
+            <svg height="200" width="500">
+ 
+              <line id="line01" x1="400" y1="20" x2="400" y2="150"/>
+              <line id="line02" x1="50" y1="50" x2="400" y2="150"/>
+             
+              
+              <circle id="dot01" cx="400" cy="20" r="20"/>
+              <circle id="dot02" cx="50" cy="50" r="10"/>
+              <circle id="dot03" cx="400" cy="150" r="40"/>
+            
+            </svg>
+          </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <script src="scene1.js"></script>
+    <script src="scene2.js"></script>
+    <script src="scene3.js"></script>
+    <script src="scene4.js"></script>
+    <script src="scene5.js"></script>
+    <script src="scene6.js"></script>
+    <script src="scene7.js"></script>
+    <script src="scene8.js"></script>
+  </footer>
+</html>
